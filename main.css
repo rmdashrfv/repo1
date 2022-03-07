@@ -2,9 +2,28 @@ body {
   font-family: sans-serif;
 }
 
+h2, p {
+  text-align: center;
+}
+
 #hero {
   background-image: url('https://media.cntraveler.com/photos/5a8f3b070e2cf839e9dbfa1d/2:1/w_2560%2Cc_limit/NYC_GettyImages-640006562.jpg');
   background-size: cover;
   background-position: 50% 50%;
   height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h1, #hero p {
+  font-size: 3em;
+  background: blanchedalmond;
+  padding: 2% 3%;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 1.5em;
 }
